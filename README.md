@@ -6,7 +6,10 @@
 
 - Tab model <-- Cache TDD
 - Modes (Ask, Agent & Plan) <-- Generics, Refactor, Observability
-- Cursor rules <- Refactor tests
+- Cursor rules <- Refactor tests --> SKILLS
+- Agents.md
+- Subagents
+- Spec Driven
 
 ## DevOps pipelines features
 
