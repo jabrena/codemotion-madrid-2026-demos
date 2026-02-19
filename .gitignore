@@ -3,6 +3,8 @@ target/
 .idea/
 .vscode/
 .cursor/
+.agents
+.claude
 .flattened-pom.xml
 *.log
 .classpath

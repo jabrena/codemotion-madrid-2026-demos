@@ -6,7 +6,7 @@
 
 - Tab model <-- Cache TDD
 - Modes (Ask, Agent & Plan) <-- Generics, Refactor, Observability
-- Cursor rules <- Refactor tests --> SKILLS
+- Cursor rules <- Refactor tests --> Skills
 - Agents.md
 - Subagents
 - Spec Driven
@@ -17,6 +17,10 @@
 
 ## References
 
+- https://agents.md/
+- https://github.com/anthropics/skills
+- https://agentskills.io/specification
+- https://github.com/agentskills/agentskills/tree/main/skills-ref
 - https://conferences.codemotion.com/madrid
 - https://github.com/jabrena/wjax25-demos
 - https://github.com/jabrena/dvbe25-demos
