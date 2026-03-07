@@ -9,6 +9,7 @@
 - Cursor rules <- Refactor tests --> Skills
 - Agents.md
 - Subagents
+- Skills `npx skills install jabrena/cursor-rules-java --all --agent cursor`
 - Spec Driven
 
 ## DevOps pipelines features
@@ -20,6 +21,7 @@
 - https://agents.md/
 - https://github.com/anthropics/skills
 - https://agentskills.io/specification
+- https://cursor.com/docs/context/skills
 - https://github.com/agentskills/agentskills/tree/main/skills-ref
 - https://conferences.codemotion.com/madrid
 - https://github.com/jabrena/wjax25-demos

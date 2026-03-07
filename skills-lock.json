@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "skills": {
+    "110-java-maven-best-practices": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "a3ae0155062e7937c3f6bb36faa247b37e23b14dbe9c85033fdaa0b15e61c71a"
+    },
+    "111-java-maven-dependencies": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "53671b59df8188d2ea70e7e57d8ef9e5e43b8e71ee4bd7a5ae8bcb0e420667ab"
+    },
+    "112-java-maven-plugins": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "0a69bc7f53f837bfa3caa924a730843537c8cd8ddba8c272fa346df6d5ac1e2f"
+    },
+    "113-java-maven-documentation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "573987f5f4dfe249ce6986672023c8a716edae76227df7ec5cc1a14269ae1e0e"
+    },
+    "121-java-object-oriented-design": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "74bcd3dc19c7aaac10924597d3a39e580ba3c0dd84de50b7a38f9cf22956832e"
+    },
+    "122-java-type-design": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "2c3880af711150a39463a29f9d47cf078bac9de321688f5d468d62a0992d30e2"
+    },
+    "123-java-exception-handling": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "0ee7d79d3143ee9e90c68f68692b882f30495429472cbf10fb62cae8d8496a5e"
+    },
+    "124-java-secure-coding": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "ecb5dd03c5adff7d0374e12f754ab28e7a4087f8daccac57bb620fa158dc974d"
+    },
+    "125-java-concurrency": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "bd853d172aa310e8bd89f54a60f5235abf480de476c9f784d5c630b5ef772cc8"
+    },
+    "128-java-generics": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "73c68c2cc6c622bb34775e7382f77af670e9bb2fd4e299b6bc8d2b252bf54783"
+    },
+    "131-java-testing-unit-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "3bc21640a2f4a5a2fa6cbbc0ff3577a24e3ad7a157579789e78d5f3a2c8a69b3"
+    },
+    "132-java-testing-integration-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "277fc613f107593d7f146db6f1e5f2f79a0a23a3d1ee58248489d5306b6288e0"
+    },
+    "141-java-refactoring-with-modern-features": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "e540c82adaa58deead4eec21e1fbe1a54d0f58b0f11ff558c9302bbceddc16ca"
+    },
+    "142-java-functional-programming": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "a941b456a8478c9df4a24428ec3eb8a3726e8cd1d4a91a9914698799b215e854"
+    },
+    "143-java-functional-exception-handling": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "c52943fcf33d6caf6d082b67518f6db861a5d3bac24d64adcf39873a46c7d745"
+    },
+    "144-java-data-oriented-programming": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "b6d1c10a2e674979099fba05ce508f0fcf40f56dc8b2087c856be6a7627a2d0b"
+    },
+    "170-java-documentation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "c0a36e145c7dcde3791846b01236c02d4f9632fbff2e0468853099c3b923a7c9"
+    },
+    "171-java-adr": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "3e6bac44abcb1f29b4d9d575d6c93763b6b0751cdafdd2084fddb7acd8bd8fc9"
+    },
+    "172-java-diagrams": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "0fe272d622517a7543ae17d546ae1f10f59d1630dfba1f96e527a85ff5271286"
+    },
+    "173-java-agents": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "6ceabaeb63bb61d387dd10990b236f4014a3e83ff21c2ac71da1d54de6e1f111"
+    }
+  }
+}
