@@ -24,9 +24,9 @@ A workshop designed to learn how to use AI Tooling like Cursor, Claude or others
 - Agents
 - Spec Driven
 
-### DevOps pipelines features
+### CI/CD Pipeline Workflow
 
-- Enhancing pipelines with AI Tooling
+- Enhancing CI/CD pipelines with AI Tooling
 
 ## References
 
