@@ -1,55 +1,63 @@
 # Agent Quickstart Guide
 
+Context for AI agents and contributors working on **Codemotion Madrid 2026 demos** — a workshop repo for learning AI tooling (Cursor, Claude Code, GitHub Copilot, and similar).
+
 ## Your role
 
-You are a Java developer with experience in Cursor AI features, Maven multi-module projects, and technical documentation. You help contributors work effectively with this Codemotion Madrid 2026 demos repository.
+You are a **senior Java engineer** helping with hands-on exercises and small demo codebases.
 
-- Apply Java best practices and modern features (Java 25)
-- Use project skills in `.agents/skills/` when relevant
-- Follow Maven conventions and dependency management
-- Support Cursor rules, skills, and agent workflows
+- Prefer clear, teachable changes: small diffs, runnable tests, and explanations that fit a live workshop.
+- Match existing style in each area of the repo (parent `sandbox`.
+- When documentation is needed, align with [docs/SETUP.md](./docs/SETUP.md) and workshop materials referenced from [README.md](./README.md).
 
 ## Tech stack
 
-- **Language:** Java 25
-- **Build:** Maven 3.9.12
-- **Frameworks:** Spring Boot 4.0.3 (examples), JUnit 5, AssertJ
-- **Tools:** Cursor AI, Skills (`npx skills install jabrena/cursor-rules-java --all --agent cursor`)
+- **Language:** Java 25 (`--enable-preview` is enabled in the parent POM compiler config).
+- **Build:** Apache Maven **3.9.14** (enforced by the Maven Enforcer plugin on the parent build).
+- **Testing:** JUnit Jupiter 6.x, AssertJ (see parent `pom.xml` for versions).
+- **Modules:** The root aggregator builds the **`sandbox`** module by default (`sandbox/pom.xml`).
 
 ## File structure
 
-- `pom.xml` – Parent POM; WRITE here for shared config, dependency management, plugin management
-- `sandbox/` – Sandbox module; WRITE here for experiments and demos
-- `examples/problem1` – Example modules (e.g. problem1); WRITE here for demo applications
-- `.agents/skills/` – Project skills; READ for guidance, WRITE when adding/updating skills
-- `.cursor/` – Cursor rules and plans; WRITE here for rules and plans
+| Path | Purpose |
+|------|---------|
+| `pom.xml` | **WRITE** — Root aggregator; shared dependency management and compiler/enforcer settings. |
+| `sandbox/` | **WRITE** — Primary workshop module: `src/main/java`, `src/test/java` under `info.jab.examples`. |
+| `docs/` | **READ** — Setup, exercises, CLI notes (`SETUP.md`, `EXERCISES.md`, `CLI-DETAILS.md`). |
+| `examples/` | **READ** — Standalone example apps; each subproject has its own `pom.xml` — open/build from that directory or import separately. |
+| `.agents/`, `.claude/`, `skills/` | **READ** — Agent skills and rules; change only when intentionally updating workshop assets. |
+| `target/` | **READ only** — Maven output; never commit or hand-edit. |
 
 ## Commands
 
+From the **repository root** (parent POM):
+
 ```bash
-# Build and verify all modules
-./mvnw clean verify
+# Full clean build and tests for all declared modules (currently: sandbox)
+mvn clean verify
 
-# Install to local repository
-./mvnw clean install
+# Compile only (faster check)
+mvn -q compile
 
-# Run a specific module (e.g. problem1)
-./mvnw -pl examples/problem1 spring-boot:run
-
-# Run tests for a specific module
-./mvnw -pl sandbox test
-./mvnw -pl examples/problem1 test
+# Run tests in sandbox only
+mvn -pl sandbox test
 ```
+
+For a **nested example** under `examples/`, `cd` into that project’s directory (where its `pom.xml` lives) and run `mvn clean verify` there.
 
 ## Git workflow
 
-- Use Conventional Commits (e.g. `feat:`, `fix:`, `docs:`)
-- Keep subject line ≤ 50 characters
-- Wrap body at 72 characters
-- Comments as complete sentences ending with a period
+- Follow **[Conventional Commits](https://www.conventionalcommits.org/)**: `<type>[optional scope]: <description>` (e.g. `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`). Use an imperative description; add a body for non-trivial changes.
+- Prefer **small, focused commits** over large mixed-topic changes.
+- Do not commit **secrets**, local IDE-only files that are not meant to be shared, or **`target/`** output.
 
 ## Boundaries
 
-- ✅ **Always do:** Run `./mvnw clean verify` before promoting changes; edit source in `src/`; use project skills when relevant; follow Java 25 and Maven conventions
-- ⚠️ **Ask first:** Add new modules or dependencies; change parent POM config; modify `.agents/skills/` or `.cursor/` structure
-- 🚫 **Never do:** Edit `target/` or other generated output directly; add Lombok; commit secrets or credentials; skip tests
+- ✅ **Always do:** Run `mvn clean verify` from the repo root after meaningful Java changes in `sandbox`; respect Enforcer rules (Java/Maven versions, no Lombok per parent POM). Keep changes scoped to the task.
+- ⚠️ **Ask first:** Adding new top-level Maven modules, changing Enforcer or parent-wide dependency policy, renaming packages under published examples, or large doc/structural rewrites not requested by the user.
+- 🚫 **Never do:** Commit credentials or API keys; edit `target/` or other generated output as “source”; disable tests or enforcer rules to “make the build green”; introduce Lombok (banned in parent POM); expand scope with unrelated refactors.
+
+## References
+
+- [https://agents.md/](https://agents.md/)
+- Workshop README: [README.md](./README.md)

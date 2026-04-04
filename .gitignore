@@ -5,3 +5,9 @@ target/
 .flattened-pom.xml
 *.log
 .classpath
+.agents/
+# Cursor: ignore local IDE state but keep shared MCP config (see .cursor/mcp.json)
+.cursor/*
+!.cursor/mcp.json
+.claude/
+skills/

@@ -26,6 +26,10 @@ A workshop designed to learn how to use AI Tooling like Cursor AI, Claude Code, 
 
 #### Basics
 
+**Review CLI Products:**
+
+[CLI Details](./docs/CLI-DETAILS.md)
+
 **Cursor AI Desktop:**
 
 - AGENTS.md

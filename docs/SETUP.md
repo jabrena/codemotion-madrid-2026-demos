@@ -11,14 +11,46 @@ List of prerrequisites
 
 ## Recipes
 
+Intall Cursor
+
+```bash
+brew install --cask cursor-cli
+brew upgrade --cask cursor-cli
+```
+
+Install Claude
+
+```bash
+brew install claude-code
+brew upgrade claude-code
+```
+
 Install Node.js
 
 ```bash
 brew install node
 node --version
 npx --version
-npx cowsay "Hello Codemotion Madrid 2026"
+npx cowsay "Hello World"
 npx skills
+```
+
+Install UVX
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv --version
+uvx --version
+```
+
+Install Docker Desktop
+
+- https://www.docker.com/
+
+Install Cursor Rules for Java
+
+```bash
+npx skills install jabrena/cursor-rules-java --all --agent cursor
 ```
 
 ## Links of insterest

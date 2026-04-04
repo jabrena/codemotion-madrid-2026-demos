@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>25</java.version>
-        <maven.version>3.9.12</maven.version>
+        <maven.version>3.9.14</maven.version>
 
         <!-- Testing dependencies -->
         <junit-jupiter.version>6.0.3</junit-jupiter.version>
@@ -38,6 +38,7 @@
 
     <modules>
         <module>sandbox</module>
+        <module>examples/problem1</module>
     </modules>
 
     <dependencyManagement>
