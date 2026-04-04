@@ -8,22 +8,20 @@ A workshop designed to learn how to use AI Tooling like Cursor, Claude or others
 
 ## Step 2: Practice
 
-### Basics
+### Prompting Engineering Workflow
+
+#### Basics
 
 **Cursor AI Desktop:**
 
-- Tab model <-- Cache TDD
-- Modes (Ask, Agent & Plan) <-- Generics, Refactor, Observability
-
-### Prompting Engineering Workflow
-
-- Cursor rules <- Refactor tests --> Skills
+- AGENTS.md
+- Autocomplete: Tab model
+- Modes (Ask, Agent & Plan)
 
 ### Agentic Engineering Workflow
 
-- Agents.md
-- Subagents
-- Skills `npx skills install jabrena/cursor-rules-java --all --agent cursor`
+- Skills
+- Agents
 - Spec Driven
 
 ### DevOps pipelines features
@@ -39,5 +37,6 @@ A workshop designed to learn how to use AI Tooling like Cursor, Claude or others
 - https://github.com/agentskills/agentskills/tree/main/skills-ref
 - https://github.com/jabrena/wjax25-demos
 - https://github.com/jabrena/dvbe25-demos
+- https://github.com/jabrena/101-cursor
 - https://github.com/jabrena/cursor-rules-java
 - https://conferences.codemotion.com/madrid
