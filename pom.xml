@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>info.jab</groupId>
-    <artifactId>wjax25-demos</artifactId>
+    <artifactId>codemotion-madrid-2026-demos</artifactId>
     <version>0.1.0</version>
     <packaging>pom</packaging>
 
@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>25</java.version>
-        <maven.version>3.9.10</maven.version>
+        <maven.version>3.9.12</maven.version>
 
         <!-- Testing dependencies -->
         <junit-jupiter.version>6.0.1</junit-jupiter.version>
@@ -32,12 +32,13 @@
         <maven-plugin-compiler.version>3.14.1</maven-plugin-compiler.version>
         <maven-plugin-surefire.version>3.5.4</maven-plugin-surefire.version>
         <maven-plugin-enforcer.version>3.6.2</maven-plugin-enforcer.version>
-        <maven-plugin-versions.version>2.20.1</maven-plugin-versions.version>
+        <maven-plugin-versions.version>2.21.0</maven-plugin-versions.version>
         <maven-plugin-exec.version>3.6.3</maven-plugin-exec.version>
     </properties>
 
     <modules>
         <module>sandbox</module>
+        <module>examples/problem1</module>
     </modules>
 
     <dependencyManagement>

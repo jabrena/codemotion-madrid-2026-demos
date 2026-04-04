@@ -7,7 +7,7 @@
 
     <parent>
         <groupId>info.jab</groupId>
-        <artifactId>wjax25-demos</artifactId>
+        <artifactId>codemotion-madrid-2026-demos</artifactId>
         <version>0.1.0</version>
     </parent>
 
