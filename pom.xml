@@ -38,7 +38,6 @@
 
     <modules>
         <module>sandbox</module>
-        <module>examples/problem1</module>
     </modules>
 
     <dependencyManagement>

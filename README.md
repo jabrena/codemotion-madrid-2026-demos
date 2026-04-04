@@ -1,12 +1,26 @@
 # Codemotion-madrid-2026-demos
 
-A workshop designed to learn how to use AI Tooling like Cursor, Claude or others
+A workshop designed to learn how to use AI Tooling like Cursor AI, Claude Code, Github Copilot or others
 
-## Step 1: Concepts
+```
+< Hello Codemotion Madrid 2026 >
+ ------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+## Prerrequsites
+
+[SETUP.md](./docs/SETUP.md)
+
+## Part 1: Concepts
 
 - https://jabrena.github.io/cursor-rules-java/codemotion-madrid-2026/index.html
 
-## Step 2: Practice
+## Part 2: Practice
 
 ### Prompting Engineering Workflow
 
