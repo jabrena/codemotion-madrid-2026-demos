@@ -1,4 +1,4 @@
-# Exercises
+# Exercises
 
 ## Prompting Engineering Workflow
 
@@ -28,7 +28,6 @@
 ```bash
 @sandbox/src/main/java/info/jab/examples/Cache.java Given this interface, develop a test following TDD and maintain the RED phase
 @sandbox/src/test/java/info/jab/examples/CacheTest.java evolve to GREEN phase in TDD
-
 ```
 
 **References:**
