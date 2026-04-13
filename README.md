@@ -22,7 +22,17 @@ A workshop designed to learn how to use AI Tooling like Cursor AI, Claude Code, 
 
 ## Part 2: Practice
 
-### Prompting Enginering Workflow
+### Agent-driven Engineering Workflow (Demo I: 45)
+
+Agents for Java Enterprise development were designed to help the Software engineer in the implementation phase. The software engineer define good Specs and that Specifications are delegated to Agents.
+
+![](./docs/images/workflow-agents.png)
+
+- Skills
+- Agents
+- Spec Driven
+
+### Prompting Enginering Workflow (Demo II: 15)
 
 In this workflow, the Software engineer interact with models using User prompts and in an incremental way you delegate a delegate completely a task or ask help in certain moments. You could use this project to refactor the code generated or delegate the task and associate a System prompt / Skills to that task.
 
@@ -40,17 +50,7 @@ In this workflow, the Software engineer interact with models using User prompts 
 - Autocomplete: Tab model
 - Modes (Ask, Agent & Plan)
 
-### Agent Workflow
-
-Agents for Java Enterprise development were designed to help the Software engineer in the implementation phase. The software engineer define good Specs and that Specifications are delegated to Agents.
-
-![](./docs/images/workflow-agents.png)
-
-- Skills
-- Agents
-- Spec Driven
-
-### CI/CD Pipeline Workflow
+### CI/CD Pipeline Workflow (Demo III: 15)
 
 Adding AI tools to your pipeline can provide new opportunities to deliver more value (examples: automatic coding, code refactoring, continuous profiling, and others).
 
