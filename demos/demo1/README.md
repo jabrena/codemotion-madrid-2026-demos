@@ -9,7 +9,7 @@
 **Notes:**
 
 - Decimal conversion: Each character in a god name is converted to its numeric code (e.g., ASCII/Unicode), and those values are summed per name. The final result is the sum of all such per-name sums.
-- Case sensitivity: Filtering for gods starting with `n` is case-sensitive (only lowercase `n`), consistent with the Gherkin below.
+- No Case sensitivity: Filtering for gods starting with `n` is no case-sensitive (only lowercase `n`), consistent with the Gherkin below.
 
 ## Gherkin file
 
@@ -21,7 +21,7 @@ Feature: God Analysis API
 # (e.g., "Zeus" -> Z(90)e(101)u(117)s(115) -> "90101117115").
 # - Outbound HTTP uses Spring RestClient with connect/read timeouts from application configuration (defaults in application.yml).
 # - If a source request hits the configured timeout, aggregation continues with the other sources (partial result).
-# - Filtering for gods starting with 'n' is case-sensitive (only lowercase 'n').
+# - Filtering for gods starting with 'n' no is case-sensitive (only lowercase 'n').
 # - Greek API: https://my-json-server.typicode.com/jabrena/latency-problems/greek
 # - Roman API: https://my-json-server.typicode.com/jabrena/latency-problems/roman
 # - Nordic API: https://my-json-server.typicode.com/jabrena/latency-problems/nordic
