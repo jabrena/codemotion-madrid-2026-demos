@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "skills": {
+    "001-skills-inventory": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "a55b3d0f61101595c4b22bf7a379cbba1615ec9cb0542776845d9608ff8fd179"
+    },
+    "002-agents-inventory": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "475aad0c48e88345329708664488751848d4c82f08813e98f15a798ce6b4ccb0"
+    },
+    "003-agents-installation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "7b758b4d1266a57b429cef2207a24e01fe985b0125ab865fb9e33fb6461e198e"
+    },
+    "012-agile-epic": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "3b1a6e346ea704a4263f07449d952e5a759911b917711751d9dd0d496c25ddab"
+    },
+    "013-agile-feature": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "97d0211fe7faab60c37657c3e336356c13afbedd9bc85bb1a5d13ef24ccd213c"
+    },
+    "014-agile-user-story": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "76a5979ff8104d6fb5bffded7a06f832384183fd26350aa46a39e38439cbaf10"
+    },
+    "030-architecture-adr-general": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d1c54ab942c2438fcb556bc44a82574892632f374a37ca27d2aa242aa8d21a5e"
+    },
+    "031-architecture-adr-functional-requirements": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "57ed49da3707134dfca84ea36c7ae4fbd1f724856b4a778c0e855d56f2e81c3c"
+    },
+    "032-architecture-adr-non-functional-requirements": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "8ccc30dcb9d43fb30d2f053d55e8ec2f4b9ab4c7647730bad2c09275d1055512"
+    },
+    "033-architecture-diagrams": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "3ccb48de051524b2c07e5a9f91fa54b4205a30dba6868b94bfa40a55b7c92542"
+    },
+    "041-planning-plan-mode": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "28c707ddf6b18cdadd9d68633495cdf7b399fcbc6e10fb51b2197aca6638ab05"
+    },
+    "042-planning-openspec": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "b109d7e08b4df17c7898629a60be89b8658cb88c5536b7d0d01235ccb755e5c5"
+    },
+    "043-planning-github-issues": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "aef19d871e5aa375866101c6d86af2e3d8734d2a9c6eb5d48c4451743fc5079b"
+    },
+    "044-planning-jira": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "9355ef4e380dda0a1dbb7c127579645b8ac670e7b8cd40d66b8aa6280b68da74"
+    },
+    "110-java-maven-best-practices": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d53fd2ab309e80ea6f767bdc82da2c56cef8f30eb8f45139a5f631d0597f0f75"
+    },
+    "111-java-maven-dependencies": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "317f18d2a0eb74475e254121b376a5ad5f24e93cbfb54daa978a74a32bf4dea9"
+    },
+    "112-java-maven-plugins": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "ea4db52c2c05cea5319c7f1982b80f6a78d0504fd2795c33d70545c76b74cfd8"
+    },
+    "113-java-maven-documentation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "80d405b7a1f8d0947c8eb35d123b7bd110ff4064a4f8b1edb9ff0242e01badb5"
+    },
+    "114-java-maven-search": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "223a5a5dfc89cddf9ece7501ce476e169001db4ca683d5edbfea63a085142581"
+    },
+    "121-java-object-oriented-design": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "766d7fbae750c6bf03040812687a68bf00ea378db4e0de84f387d74632e1a508"
+    },
+    "122-java-type-design": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "7d9028d7559dbf7bf2dd2f1f25f49eea1e274e03cfb538ca92ec960172eb3f41"
+    },
+    "123-java-exception-handling": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "4052c510073cdd45ad0a60fdd5a985d946e8532d5f203c17b620730d937802a1"
+    },
+    "124-java-secure-coding": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "dd4b4e5ecac3a24b1efe2c2a836ff53c3f77e1c0a5257837bb5c9e5512db8f49"
+    },
+    "125-java-concurrency": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d052d860e3b793db47c66e10190174a7e4c87f0f0ffa76353d6b6c3892d7d8e2"
+    },
+    "128-java-generics": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "e83acd25523a6f8a140446281c6b4c0db4e09746eb641f3a7c80f64163a858b8"
+    },
+    "130-java-testing-strategies": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "08129ed14a06f53d74fc84b1bb5946e2dfc364244a55a72b46b8b0a41b643ae4"
+    },
+    "131-java-testing-unit-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "4ae5c24d8e2180b585889403d8aa3f887940aab2fdb52d78a6a19c169f1284c1"
+    },
+    "132-java-testing-integration-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "98394941cbd77bb06e6b62f6b047efbc2b4f85fc5149ebe7135cdd11b181d1d8"
+    },
+    "133-java-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "7bcbf86b238725f11af2046037e231cf683bed45e8721161c47ad0feba7fb994"
+    },
+    "141-java-refactoring-with-modern-features": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "2e51629d09476b39b99cefeecb0f2615cd69f9b4100549bf6ec087477a3f62fb"
+    },
+    "142-java-functional-programming": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "bc2b679a2ff404d623a71e0f1ab0115c7c1366e01527b493d4c9696b677963d8"
+    },
+    "143-java-functional-exception-handling": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d24ba69c73ee748fcafeb3c836ce21d544939f83b30820e0267981fb9533ff87"
+    },
+    "144-java-data-oriented-programming": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "44f7b25db709717085cbc68b6b2bf4e2b1059ed481a3800c5b4f38b3d601e323"
+    },
+    "151-java-performance-jmeter": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "b9168b7393306ae2b435bd1466c9dc82e708d89f238e02baf887489b5d11e16f"
+    },
+    "161-java-profiling-detect": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "b2f78361fb6542273b6759056896fc6dba85449f712dade3d38b150358138f17"
+    },
+    "162-java-profiling-analyze": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "a526dd6655d49814ffea4c243c13cfd6cb39f26ba80d0ed5d5dd59aee90ede2a"
+    },
+    "163-java-profiling-refactor": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d47d8d64016451e77394129ab17896be8f4d171f3c2f06534555b7f1e7260df2"
+    },
+    "164-java-profiling-verify": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "4d2cedb22603010ab0d8f965a3d1c7aba2a2fab9b2c73c0c2723fc66f53b6722"
+    },
+    "170-java-documentation": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "acb47fee8310059111f78f7e7774c4210e00e929437f66f3e27e0dd0f462cba2"
+    },
+    "180-java-observability-logging": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "fb464b894b22326c3aa09bdf5922ce2c179ef51de7e567ed13220be02b694987"
+    },
+    "200-agents-md": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "9e22119e64776863eaea1f76eb16ebcb2d48d342991006e525908cdac3b9e547"
+    },
+    "301-frameworks-spring-boot-core": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "2f5f783e188e43c1cfed48a9ee61dd892e8c15d1e9684aff4d32129ae89f5892"
+    },
+    "302-frameworks-spring-boot-rest": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "b06cce8ca47b8d6c69cd32e109d1c2f43cdc01596f0da7512b0c159064cb23cf"
+    },
+    "311-frameworks-spring-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "39349bec555267063076487c3211ef4b434522d90772f6f0937df29cff98efa7"
+    },
+    "312-frameworks-spring-data-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "ab7e996342e3da669aa2155098f5c40c7e4f706f3293d06cbf3370df38bec897"
+    },
+    "313-frameworks-spring-db-migrations-flyway": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "7c8e53ec2638fbea0916ab6412bebe0fc3c857d5b6fb9fc96b867020603a01cf"
+    },
+    "321-frameworks-spring-boot-testing-unit-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "98b0cef10ba8d5b04b39821b26e03fad01678747d2ca6349d20f3b7b6847c2c7"
+    },
+    "322-frameworks-spring-boot-testing-integration-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "23236a58c49b826c6ec7ad821c38777dafa68c8ffc54507c258d1068c94f0efa"
+    },
+    "323-frameworks-spring-boot-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "967bb9c14aa416afb3156d5538071830a0a0da7c178f62d7933656a31b136bd5"
+    },
+    "401-frameworks-quarkus-core": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "535eed879545d960091e5d6549ae50a25d7dfcf5ff8271600759f4f9819c0bf6"
+    },
+    "402-frameworks-quarkus-rest": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "67e7c4977c2210448662cf4f0f9c156f581d298564c64f28bfc69906d6b871d0"
+    },
+    "411-frameworks-quarkus-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "ddb74f144bc7ea2d027e206bb48a08ada55195b6aa146877f26185f4fc54d8df"
+    },
+    "412-frameworks-quarkus-panache": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "576c93663cdf3c55a2268405fedcfeca476debb95e22f1ae2e8550a7ae53b5db"
+    },
+    "413-frameworks-quarkus-db-migrations-flyway": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "bec9f5436875b43de3ad524d80d600333536c906bb8c76d26013d8d2ce871589"
+    },
+    "421-frameworks-quarkus-testing-unit-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d28a4f1918fb4869670eab49643a57ebcff9372e278cf58d650dc5c0b09756e3"
+    },
+    "422-frameworks-quarkus-testing-integration-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d25528e9c99e86d629067c6a3916daf09705163bcd02dfc1c5d003bbed128e68"
+    },
+    "423-frameworks-quarkus-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d9253b1b402b72315a47a4396bf7ad204a6eb7d2197d4bec32f1e8adf3a02522"
+    },
+    "501-frameworks-micronaut-core": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "cc2cf405eb60743f6cecedb5c0fc8913bbc45fc183ea4a33cf912b96d56aa589"
+    },
+    "502-frameworks-micronaut-rest": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "e17c94cd999623735a1286bf45da413e1af29471ff7f9943d18e68cd4e998c4c"
+    },
+    "511-frameworks-micronaut-jdbc": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "a4a9755fe06d9307d71c66dbb0f70d0e0974abb1436fcaffe8b8ceafee99dadb"
+    },
+    "512-frameworks-micronaut-data": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "18a232a777dbac8126fa57306d2c80030ac7dd45d61cf58df3c7fc4f311f8a04"
+    },
+    "513-frameworks-micronaut-db-migrations-flyway": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "63d7bac6bcb95a1cab4be199a729a03cfca47a00e4f92aec1ad3bc169e67b050"
+    },
+    "521-frameworks-micronaut-testing-unit-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "745d1f26095ff3b14c200a7732e04e202de1f2d9aab2770e4c23e0c2381b91ea"
+    },
+    "522-frameworks-micronaut-testing-integration-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "28748fd562616b9b1e889c9f98583c9e5a96705673d1284c2329b85c5b72511c"
+    },
+    "523-frameworks-micronaut-testing-acceptance-tests": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "d762cc9258c34ab611d9126ec6b2bc1ae241355fabe83536b42bb2ae803ece5c"
+    },
+    "701-technologies-openapi": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "c71a82eba2c77702d85e5771b6d80ef24d260769ef6f626e5633ad581e430f65"
+    },
+    "702-technologies-wiremock": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "e04580f9236cf8b8d9432514efbf521dfbd6f2c66887e3fefb5a926301557fe7"
+    },
+    "703-technologies-fuzzing-testing": {
+      "source": "jabrena/cursor-rules-java",
+      "sourceType": "github",
+      "computedHash": "4ab1fe9fb675e3be65a23cdac186c7c738412fb5afa91d0d37b89cc1dfb2b35a"
+    }
+  }
+}

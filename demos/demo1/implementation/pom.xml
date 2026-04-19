@@ -32,6 +32,10 @@
 			<artifactId>spring-boot-starter-json</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
@@ -61,7 +65,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<inputSpec>${project.basedir}/../requirements/agile/US-001-god-analysis-api.openapi.yaml</inputSpec>
+							<inputSpec>${project.basedir}/../requirements/US-001-god-analysis-api.openapi.yaml</inputSpec>
 							<generatorName>spring</generatorName>
 							<apiPackage>info.jab.ms.api</apiPackage>
 							<modelPackage>info.jab.ms.api.model</modelPackage>
