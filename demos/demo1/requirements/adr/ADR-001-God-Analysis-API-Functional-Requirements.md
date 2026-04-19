@@ -16,7 +16,7 @@ The primary consumers are educational and research platforms with moderately tec
 ### Core API Operations
 - **Primary endpoint:** `GET /api/v1/gods/stats/sum`
 - **Query parameters:**
-  - `filter`: Case-sensitive name filtering (e.g., `filter=n` matches only names starting with lowercase 'n')
+  - `filter`: Case-insensitive name filtering: compare the single filter character to the first character of each god name ignoring case (e.g., `filter=n` and `filter=N` select the same names; aligns with [US-001-god-analysis-api.openapi.yaml](../US-001-god-analysis-api.openapi.yaml))
   - `sources`: Comma-separated pantheon selection (e.g., `sources=greek,roman,nordic`)
 - **Response format:** JSON object containing a `sum` field with the calculated aggregate value
 
@@ -26,7 +26,7 @@ The primary consumers are educational and research platforms with moderately tec
    - Roman API: `https://my-json-server.typicode.com/jabrena/latency-problems/roman`
    - Nordic API: `https://my-json-server.typicode.com/jabrena/latency-problems/nordic`
 
-2. **Name Filtering:** Apply case-sensitive filtering based on the first character of god names
+2. **Name Filtering:** Apply case-insensitive filtering on the first character of each god name (filter letter and name initial compare ignoring case)
 
 3. **Decimal Conversion:** Transform each filtered god name using Unicode-based algorithm:
    - Convert each character to its Unicode integer value
